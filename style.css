@@ -76,7 +76,7 @@ main {
     margin-block-start: 25px;
     font-size: var(--fs-400);
     letter-spacing: -0.5px;
-    background-image: no-repeat bottom url(images/pattern-divider-mobile.svg);
+    background-image: no-repeat bottom url(./images/pattern-divider-mobile.svg);
     padding-block-end: 40px;
 }
 
@@ -93,4 +93,31 @@ main {
 .card-btn:hover,
 .card-btn:active {
     box-shadow: 0 0 32px var(--clr-green);
+}
+
+@media (min-width: 736px) {
+    main {
+        margin-block: 14rem;
+    }
+
+    .card-container {
+        min-width: 540px;
+        padding-inline: 42px;
+    }
+
+    .card-title {
+        margin-block-start: 30px;
+        font-size: 13px;
+        letter-spacing: 3.75px;
+    }
+
+    .card-text {
+        margin-block-start: 26px;
+        font-size: 27px;
+        letter-spacing: 0.15px;
+        line-height: 1.41;
+        background-image: no-repeat bottom url(./images/pattern-divider-desktop.svg);
+        padding-block-end: 55px;
+        margin-block-end: 7px;
+    }
 }
