@@ -64,4 +64,33 @@ main {
 
 .card-title {
     color: var(--clr-green);
+    text-transform: uppercase;
+    margin-block-start: 25px;
+    font-size: var(--fs-200);
+    letter-spacing: 4px;
+}
+
+.card-text {
+    color: var(--clr-cyan);
+    text-align: center;
+    margin-block-start: 25px;
+    font-size: var(--fs-400);
+    letter-spacing: -0.5px;
+    background-image: no-repeat bottom url(images/pattern-divider-mobile.svg);
+    padding-block-end: 40px;
+}
+
+.card-btn {
+    color: var(--clr-dark-blue);
+    background-color: var(--clr-green);
+    border: none;
+    padding: 20px;
+    position: relative;
+    border-radius: 50%;
+    transform: translateY(50%);
+}
+
+.card-btn:hover,
+.card-btn:active {
+    box-shadow: 0 0 32px var(--clr-green);
 }
