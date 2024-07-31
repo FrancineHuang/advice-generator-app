@@ -1,0 +1,67 @@
+:root {
+    --ff-sans: "Manrope", sans-serif;
+    
+    --fw-bold: 800;
+    
+    --fs-200: 0.75rem;  /* 12px SP title */
+    --fs-300: 1rem;  /* 16px PC title */
+    --fs-400: 1.5rem;  /* 24px SP quote */
+    --fs-500: 1.75rem;  /* 28px PC quote */
+    
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-neutral-400: hsl(212, 45%, 89%);
+    
+    --clr-cyan: hsl(193, 38%, 86%);
+    --clr-green: hsl(150, 100%, 66%);
+    
+    --clr-gray-blue: hsl(217, 19%, 38%);
+    --clr-dark-gray-blue: hsl(217, 19%, 24%);
+    --clr-dark-blue: hsl(218, 23%, 16%);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+html {
+    background: var(--clr-dark-blue);
+    font-family: var(--ff-sans);
+}
+
+main {
+    margin-block: 7.5rem;
+    margin-inline: auto;
+    min-width: 375px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-container{
+    min-width: calc(375px - 2px);
+    max-width: 540px;
+    margin-inline: 1rem;
+    border-radius: 10px;
+    position: relative;
+    background-color: var(--clr-dark-gray-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 1.5rem;
+    padding-block-start: 1.5rem;
+}
+
+.card-title {
+    color: var(--clr-green);
+}
