@@ -29,9 +29,11 @@ Users should be able to:
 ### Screenshot
 
 Desktop view
+
 ![](./Screenshot-desktop.png)
 
 Mobile view
+
 ![](./Screenshot-mobile.png)
 
 
