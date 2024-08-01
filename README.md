@@ -39,8 +39,8 @@ Mobile view
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/advice-generator-app-solutionwith-pure-html-css-and-javascript-dz-baVyokh)
-- Live Site URL: [Add live site URL here](https://francinehuang.github.io/advice-generator-app/)
+- Solution URL: [Advice generator app solution(with pure html, css and javascript)](https://www.frontendmentor.io/solutions/advice-generator-app-solutionwith-pure-html-css-and-javascript-dz-baVyokh)
+- Live Site URL: [Advice Generator App](https://francinehuang.github.io/advice-generator-app/)
 
 ## My process
 
